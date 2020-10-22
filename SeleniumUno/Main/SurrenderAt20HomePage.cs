@@ -34,6 +34,8 @@ namespace SeleniumUno.Main
 
         [FindsBy(How = How.CssSelector, Using = ".menu-esports")]
         protected internal IWebElement esportsButton;
+
+        protected internal IList<IWebElement> featuredContentLinks => SeleniumUno.Main.PropertiesCollection.driver.FindElements(By.XPath("//div[@id='HTML5']/div[1]/a"));
         public SurrenderAt20HomePage()
         {
             //Initializes the driver to have waits
