@@ -36,6 +36,11 @@ namespace SeleniumUno.Main
         protected internal IWebElement esportsButton;
 
         protected internal IList<IWebElement> featuredContentLinks => SeleniumUno.Main.PropertiesCollection.driver.FindElements(By.XPath("//div[@id='HTML5']/div[1]/a"));
+
+        protected internal IWebElement supportLink => SeleniumUno.Main.PropertiesCollection.driver.FindElement(By.XPath("//div[@class='widget-content']/a/h4"));
+
+        protected internal IList<IWebElement> weekHeadlines => SeleniumUno.Main.PropertiesCollection.driver.FindElements(By.XPath("//div[@id='popularpostsbody']/ul/li"));
+        
         public SurrenderAt20HomePage()
         {
             //Initializes the driver to have waits

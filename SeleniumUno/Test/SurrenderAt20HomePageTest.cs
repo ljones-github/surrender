@@ -256,6 +256,63 @@ namespace SeleniumUno
             }
         }
 
+        [Test]
+        public void _supportLink()
+        {
+            SurrenderAt20HomePage sur = new SurrenderAt20HomePage();
+            m = MethodBase.GetCurrentMethod();
+            try
+            {
+                Log.Info("Attempting to click on link");
+                sur.supportLink.Click();
+                Log.Debug("Clicked on link successfully.");
+
+
+            }
+            catch(Exception e)
+            {
+                Log.Error($"Class: {m.ReflectedType.Name} || Method: {m.Name} || Error: {e}");
+            }
+            System.Threading.Thread.Sleep(3000);
+            Assert.That(SeleniumUno.Main.PropertiesCollection.driver.Url.Contains("support"));
+            Base._takesScreenshot(m.Name);
+            
+        }
+
+        [Test]
+        public void _thisWeeksHeadlines()
+        {
+            SurrenderAt20HomePage sur = new SurrenderAt20HomePage();
+            Actions s = new Actions(SeleniumUno.Main.PropertiesCollection.driver);
+            m = MethodBase.GetCurrentMethod();
+            int count = 1;
+            int countCheck = 1;
+            try
+            {
+                Log.Info("Attempting to open all links");
+                foreach(IWebElement link in sur.weekHeadlines)
+                {
+                    s.KeyDown(Keys.Control).Click(link).Build().Perform();
+                }
+                Log.Debug("Links clicked successfully");
+            }
+            catch(Exception e)
+            {
+                Log.Error($"Class: {m.ReflectedType.Name} || Method: {m.Name} || Error: {e}");
+            }
+
+            countCheck = countCheck + SeleniumUno.Main.PropertiesCollection.driver.WindowHandles.Count;
+            foreach(string id in SeleniumUno.Main.PropertiesCollection.driver.WindowHandles)
+            {
+
+                SeleniumUno.Main.PropertiesCollection.driver.SwitchTo().Window(id);
+                Console.WriteLine($"Url {count} is: {SeleniumUno.Main.PropertiesCollection.driver.Url}");
+                count++;
+            }
+
+            Assert.That(count == countCheck);
+        }
+
         [TearDown]
         public void CloseBrowser()
         {
