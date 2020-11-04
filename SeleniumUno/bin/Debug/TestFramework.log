@@ -1,0 +1,42 @@
+2020-11-02 14:24:17,154 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+2020-11-02 14:24:20,376 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+2020-11-02 14:26:52,341 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+2020-11-02 14:26:54,295 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+2020-11-02 14:34:37,693 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+2020-11-02 14:34:39,644 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+2020-11-02 14:34:46,399 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+2020-11-02 14:34:48,543 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+2020-11-02 14:35:00,768 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+2020-11-02 14:35:02,916 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+2020-11-02 14:35:12,417 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to click on button: log.debug
+2020-11-02 14:35:13,202 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Button clicked successfully: log.info
+2020-11-02 14:35:16,776 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+2020-11-02 14:35:18,922 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+2020-11-02 14:35:22,375 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to click on button...
+2020-11-02 14:35:28,541 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Button clicked successfully
+2020-11-02 14:35:31,693 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+2020-11-02 14:35:33,834 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+2020-11-02 14:35:46,466 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+2020-11-02 14:35:48,608 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+2020-11-02 14:36:00,236 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+2020-11-02 14:36:02,377 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+2020-11-02 14:36:13,948 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+2020-11-02 14:36:16,088 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+2020-11-02 14:36:30,223 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+2020-11-02 14:36:32,364 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+2020-11-02 14:36:35,319 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to click on link
+2020-11-02 14:36:35,782 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Clicked on link successfully.
+2020-11-02 14:36:42,502 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+2020-11-02 14:36:44,642 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+2020-11-02 14:36:48,138 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to open all links
+2020-11-02 14:36:51,035 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Links clicked successfully
+2020-11-02 14:36:59,845 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+2020-11-02 14:37:01,987 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+2020-11-02 14:37:11,710 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to acquire links...
+2020-11-02 14:37:12,369 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Links successfully acquired.
+2020-11-02 14:37:14,528 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+2020-11-02 14:37:16,672 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+2020-11-02 15:01:22,562 [NonParallelWorker] INFO C:\Users\ljone\source\repos\SeleniumUno\SeleniumUno\Test\SurrenderAt20HomePageTest.cs - Attempting to initialize driver
+2020-11-02 15:01:24,522 [NonParallelWorker] DEBUG C:\Users\ljone\source\repos\SeleniumUno\SeleniumUno\Test\SurrenderAt20HomePageTest.cs - Driver initialized successfully
+2020-11-02 15:03:05,400 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+2020-11-02 15:03:07,364 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully

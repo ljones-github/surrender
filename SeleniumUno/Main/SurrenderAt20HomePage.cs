@@ -1,5 +1,6 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Support.PageObjects;
+using OpenQA.Selenium.Support.UI;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -40,7 +41,14 @@ namespace SeleniumUno.Main
         protected internal IWebElement supportLink => SeleniumUno.Main.PropertiesCollection.driver.FindElement(By.XPath("//div[@class='widget-content']/a/h4"));
 
         protected internal IList<IWebElement> weekHeadlines => SeleniumUno.Main.PropertiesCollection.driver.FindElements(By.XPath("//div[@id='popularpostsbody']/ul/li"));
-        
+
+        protected internal SelectElement blogArchive => new SelectElement(SeleniumUno.Main.PropertiesCollection.driver.FindElement(By.CssSelector("#BlogArchive2_ArchiveMenu")));
+
+        protected internal IWebElement submitSearch => SeleniumUno.Main.PropertiesCollection.driver.FindElement(By.XPath("//td[@class='gsc-search-button']"));
+
+        protected internal IWebElement skinSpotlight => SeleniumUno.Main.PropertiesCollection.driver.FindElement(By.CssSelector("a[href*='skinspotlights']"));
+
+        protected internal IList<IWebElement> footerLinks => SeleniumUno.Main.PropertiesCollection.driver.FindElements(By.XPath(("//div[@id='footer-content']/a")));
         public SurrenderAt20HomePage()
         {
             //Initializes the driver to have waits

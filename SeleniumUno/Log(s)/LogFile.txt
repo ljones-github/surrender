@@ -1,0 +1,158 @@
+15:13:45,669 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+15:13:47,626 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+15:13:54,768 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+15:13:56,917 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+15:14:08,882 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+15:14:11,029 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+15:14:20,168 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to click on button: log.debug
+15:14:21,117 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Button clicked successfully: log.info
+15:14:24,463 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+15:14:26,606 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+15:14:30,007 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to click on button...
+15:14:36,180 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Button clicked successfully
+15:14:39,393 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+15:14:41,546 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+15:14:53,613 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+15:14:55,763 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+15:15:08,529 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+15:15:10,674 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+15:15:22,699 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+15:15:24,893 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+15:15:39,535 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+15:15:41,678 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+15:15:44,903 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to click on link
+15:15:45,205 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Clicked on link successfully.
+15:15:51,801 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+15:15:53,998 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+15:15:57,166 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to open all links
+15:16:01,093 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Links clicked successfully
+15:16:09,381 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+15:16:11,525 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+15:16:20,543 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to acquire links...
+15:16:21,299 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Links successfully acquired.
+15:16:23,492 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+15:16:25,633 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+15:26:07,137 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+15:26:09,109 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+15:26:13,284 [NonParallelWorker] INFO SeleniumUno.Surrender - Void InitializeDriver()
+10:23:07,001 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+10:23:09,936 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+10:23:13,392 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Attempting to click on link..
+10:23:13,487 [NonParallelWorker] INFO SeleniumUno.Surrender - Link clicked successfully!
+13:42:36,554 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+13:42:43,836 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+13:42:48,577 [NonParallelWorker] INFO SeleniumUno.Surrender - Void _blogArchive()
+13:42:54,031 [NonParallelWorker] INFO SeleniumUno.Surrender - Option number 1 is Element (id = 36e721f5-747d-4db1-aff5-0150d9ca3c36)
+13:42:56,832 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+13:42:59,820 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+13:43:04,800 [NonParallelWorker] INFO SeleniumUno.Surrender - Void _clickEsports()
+13:43:14,244 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+13:43:17,189 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+13:43:27,518 [NonParallelWorker] INFO SeleniumUno.Surrender - Void _clickHome()
+13:43:27,752 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to click on button: log.debug
+13:43:29,293 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Button clicked successfully: log.info
+13:43:35,380 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+13:43:38,570 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+13:43:44,122 [NonParallelWorker] INFO SeleniumUno.Surrender - Void _clickPbe()
+13:43:44,125 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to click on button...
+13:43:51,557 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Button clicked successfully
+13:43:57,149 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+13:44:00,282 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+13:44:05,390 [NonParallelWorker] INFO SeleniumUno.Surrender - Void _clickRedposts()
+13:44:14,979 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+13:44:18,138 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+13:44:22,555 [NonParallelWorker] INFO SeleniumUno.Surrender - Void _clickReleases()
+13:44:32,069 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+13:44:34,961 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+13:44:39,160 [NonParallelWorker] INFO SeleniumUno.Surrender - Void _clickRotations()
+13:44:48,823 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+13:44:52,009 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+13:44:57,067 [NonParallelWorker] INFO SeleniumUno.Surrender - Void _featuredContent()
+13:45:16,072 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+13:45:19,080 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+13:45:23,774 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Attempting to click on links
+13:45:31,904 [NonParallelWorker] INFO SeleniumUno.Surrender - Window 1 url is https://www.surrenderat20.net//nWindow 2 url is https://www.surrenderat20.net/p/donate.html/nWindow 3 url is https://www.surrenderat20.net/p/about.html/nWindow 4 url is https://www.surrenderat20.net//n
+13:45:31,907 [NonParallelWorker] INFO SeleniumUno.Surrender - Links clicked successfully!
+13:45:35,194 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+13:45:38,180 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+13:45:42,485 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Attempting to click on link..
+13:45:42,853 [NonParallelWorker] INFO SeleniumUno.Surrender - Link clicked successfully!
+13:45:54,735 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+13:45:57,852 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+13:46:01,789 [NonParallelWorker] INFO SeleniumUno.Surrender - Void _supportLink()
+13:46:01,793 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to click on link
+13:46:02,197 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Clicked on link successfully.
+13:46:09,716 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+13:46:12,911 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+13:46:17,196 [NonParallelWorker] INFO SeleniumUno.Surrender - Void _thisWeeksHeadlines()
+13:46:17,197 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to open all links
+13:46:20,475 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Links clicked successfully
+13:47:29,100 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+13:47:32,631 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+13:47:37,707 [NonParallelWorker] INFO SeleniumUno.Surrender - Void CountLinks()
+13:47:43,710 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to acquire links...
+13:47:46,020 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Links successfully acquired.
+13:47:48,536 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+13:47:51,430 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+13:47:55,324 [NonParallelWorker] INFO SeleniumUno.Surrender - Void InitializeDriver()
+13:53:57,241 [15] INFO SeleniumUno.Surrender - Attempting to initialize driver
+13:54:00,857 [15] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+13:54:04,708 [15] INFO SeleniumUno.Surrender - Void _supportLink()
+13:54:04,768 [15] INFO SeleniumUno.Surrender - Attempting to click on link
+13:54:05,526 [15] DEBUG SeleniumUno.Surrender - Clicked on link successfully.
+13:55:51,259 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+13:55:54,703 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+13:55:58,457 [NonParallelWorker] INFO SeleniumUno.Surrender - Void _blogArchive()
+13:56:02,875 [NonParallelWorker] INFO SeleniumUno.Surrender - Option number 1 is Element (id = 15550fe7-c0c2-4a03-978e-4a473d1c2ff8)
+13:56:05,307 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+13:56:08,149 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+13:56:11,769 [NonParallelWorker] INFO SeleniumUno.Surrender - Void _clickEsports()
+13:56:22,127 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+13:56:24,969 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+13:56:34,660 [NonParallelWorker] INFO SeleniumUno.Surrender - Void _clickHome()
+13:56:34,866 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to click on button: log.debug
+13:56:36,016 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Button clicked successfully: log.info
+13:56:42,439 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+13:56:45,331 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+13:56:49,453 [NonParallelWorker] INFO SeleniumUno.Surrender - Void _clickPbe()
+13:56:49,457 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to click on button...
+13:56:55,793 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Button clicked successfully
+13:57:01,229 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+13:57:04,020 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+13:57:07,442 [NonParallelWorker] INFO SeleniumUno.Surrender - Void _clickRedposts()
+13:57:16,605 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+13:57:19,555 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+13:57:23,449 [NonParallelWorker] INFO SeleniumUno.Surrender - Void _clickReleases()
+13:57:32,809 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+13:57:35,633 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+13:57:40,130 [NonParallelWorker] INFO SeleniumUno.Surrender - Void _clickRotations()
+13:57:50,369 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+13:57:53,466 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+13:57:57,387 [NonParallelWorker] INFO SeleniumUno.Surrender - Void _featuredContent()
+13:58:21,942 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+13:58:24,776 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+13:58:28,710 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Attempting to click on links
+13:58:37,076 [NonParallelWorker] INFO SeleniumUno.Surrender - Window 1 url is https://www.surrenderat20.net//nWindow 2 url is https://www.surrenderat20.net/p/donate.html/nWindow 3 url is https://www.surrenderat20.net/p/about.html/nWindow 4 url is https://www.surrenderat20.net//n
+13:58:37,077 [NonParallelWorker] INFO SeleniumUno.Surrender - Links clicked successfully!
+13:58:39,659 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+13:58:42,646 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+13:58:46,869 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Attempting to click on link..
+13:58:47,115 [NonParallelWorker] INFO SeleniumUno.Surrender - Link clicked successfully!
+13:58:57,606 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+13:59:00,448 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+13:59:04,508 [NonParallelWorker] INFO SeleniumUno.Surrender - Void _supportLink()
+13:59:04,512 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to click on link
+13:59:05,036 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Clicked on link successfully.
+13:59:14,875 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+13:59:17,651 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+13:59:21,441 [NonParallelWorker] INFO SeleniumUno.Surrender - Void _thisWeeksHeadlines()
+13:59:21,442 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to open all links
+13:59:25,326 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Links clicked successfully
+13:59:59,202 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+14:00:02,142 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+14:00:06,170 [NonParallelWorker] INFO SeleniumUno.Surrender - Void CountLinks()
+14:00:12,173 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to acquire links...
+14:00:14,487 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Links successfully acquired.
+14:00:16,965 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+14:00:19,807 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+14:00:23,344 [NonParallelWorker] INFO SeleniumUno.Surrender - Void InitializeDriver()

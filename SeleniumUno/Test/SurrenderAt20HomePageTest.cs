@@ -14,12 +14,16 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
+[assembly: log4net.Config.XmlConfigurator(Watch = true)]
+
 namespace SeleniumUno
 {
     public class Surrender
     {
         //string methodName;
         SeleniumUno.Main.BrowserType myBrowser = SeleniumUno.Main.BrowserType.Chrome;
+       /// private static readonly log4net.ILog log = LogHelper.initLog();
+        private static readonly log4net.ILog log = log4net.LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
         MethodBase m;
         static void Main(string[] args)
         {
@@ -30,36 +34,39 @@ namespace SeleniumUno
             s.sendToSearchBox("God-King", testDriver);
             testDriver.Close();*/
         }
-        private ILog Log;
+       
 
+        /*
         [OneTimeSetUp]
         public void OneTimeSetUp()
         {
-            Log = LogManager.GetLogger(GetType());
+            log 
         }
+        */
 
         [SetUp]
         public void InitializeDriver()
         {
             m = MethodBase.GetCurrentMethod();
+            
             try
             {
                 if (myBrowser == SeleniumUno.Main.BrowserType.Firefox)
                 {
-                    Log.Info("Attempting to initialize driver");
+                    log.Info("Attempting to initialize driver");
                     SeleniumUno.Main.PropertiesCollection.driver = new FirefoxDriver();
-                    Log.Debug("Driver initialized successfully");
+                    log.Debug("Driver initialized successfully");
                 }
                 else
                 {
-                    Log.Info("Attempting to initialize driver");
+                    log.Info("Attempting to initialize driver");
                     SeleniumUno.Main.PropertiesCollection.driver = new ChromeDriver();
-                    Log.Debug("Driver initialized successfully");
+                    log.Debug("Driver initialized successfully");
                 }
             }
             catch(Exception e)
             {
-                Log.Error($"Class: {m.ReflectedType.Name} || Method: {m.Name} || Error: {e}");
+                log.Error($"Class: {m.ReflectedType.Name} || Method: {m.Name} || Error: {e}");
             }
            
 
@@ -76,6 +83,7 @@ namespace SeleniumUno
         public void CountLinks()
         {
             m = MethodBase.GetCurrentMethod();
+            log.Info(m);
             System.Threading.Thread.Sleep(6000);
             //var wait = new WebDriverWait(SeleniumUno.Main.PropertiesCollection.driver, TimeSpan.FromMilliseconds(5000));
             //wait.Until(ExpectedConditions.VisibilityOfAllElementsLocatedBy(SeleniumUno.Main.PropertiesCollection.driver.FindElements(By.TagName("a"))));
@@ -83,16 +91,16 @@ namespace SeleniumUno
             
             try
             {
-                Log.Info("Attempting to acquire links...");
+                log.Info("Attempting to acquire links...");
                 foreach (IWebElement link in sur.links)
                 {
                     Console.WriteLine(SeleniumUno.Standard_Methods.GetMethods.GetUrl(link));
                 }
-                Log.Debug("Links successfully acquired.");
+                log.Debug("Links successfully acquired.");
             }
             catch (Exception e)
             {
-                Log.Error($"Class: {m.ReflectedType.Name} || Method: {m.Name} || Error: {e}");
+                log.Error($"Class: {m.ReflectedType.Name} || Method: {m.Name} || Error: {e}");
             }
             
             Console.WriteLine("Number of links on the page is " + sur.links.Count);
@@ -104,6 +112,7 @@ namespace SeleniumUno
         {
             System.Threading.Thread.Sleep(6000);
             m = MethodBase.GetCurrentMethod();
+            log.Info(m);
             String myUrl = SeleniumUno.Main.PropertiesCollection.driver.Url;
             SurrenderAt20HomePage sur = new SurrenderAt20HomePage();
             WebDriverWait myWait = new WebDriverWait(SeleniumUno.Main.PropertiesCollection.driver, TimeSpan.FromSeconds(3));
@@ -112,13 +121,13 @@ namespace SeleniumUno
 
             try
             {
-                Log.Info("Attempting to click on button: log.debug");
+                log.Info("Attempting to click on button: log.debug");
                 s.Click(sur.homeButton).Build().Perform();
-                Log.Debug("Button clicked successfully: log.info");
+                log.Debug("Button clicked successfully: log.info");
             }
             catch(Exception e)
             {
-                Log.Error($"Class: {m.ReflectedType.Name} || Method: {m.Name} || Error: {e}");
+                log.Error($"Class: {m.ReflectedType.Name} || Method: {m.Name} || Error: {e}");
             }
             
             myWait.Until(ExpectedConditions.ElementToBeClickable(sur.homeButton));
@@ -130,29 +139,33 @@ namespace SeleniumUno
         [Test]
         public void SendToSearchBox()
         {
+            log.Info(m);
             SurrenderAt20HomePage sur = new SurrenderAt20HomePage();
             string s = "God-King";
             SeleniumUno.Standard_Methods.SetMethods.EnterText(sur.searchBox, s);
+            Assert.That(sur.searchBox.GetAttribute("value").Equals(s));
+            sur.submitSearch.Submit();
             System.Threading.Thread.Sleep(4000);
 
-            Assert.That(sur.searchBox.GetAttribute("value").Equals(s));
+            
         }
 
         [Test]
         public void _clickPbe()
         {
             m = MethodBase.GetCurrentMethod();
+            log.Info(m);
             SurrenderAt20HomePage sur = new SurrenderAt20HomePage();
             try
             {
-                Log.Info("Attempting to click on button...");
+                log.Info("Attempting to click on button...");
                 sur.pbeButton.Click();
                 System.Threading.Thread.Sleep(6000);
-                Log.Debug("Button clicked successfully");
+                log.Debug("Button clicked successfully");
             }
             catch(Exception e)
             {
-                Log.Error($"Class: {m.ReflectedType.Name} || Method: {m.Name} || Error: {e}");
+                log.Error($"Class: {m.ReflectedType.Name} || Method: {m.Name} || Error: {e}");
             }
 
             Base._takesScreenshot(m.Name);
@@ -163,6 +176,8 @@ namespace SeleniumUno
         [Test]
         public void _clickReleases()
         {
+            m = MethodBase.GetCurrentMethod();
+            log.Info(m);
             SurrenderAt20HomePage sur = new SurrenderAt20HomePage();
             try
             {
@@ -182,6 +197,8 @@ namespace SeleniumUno
         [Test]
         public void _clickRedposts()
         {
+            m = MethodBase.GetCurrentMethod();
+            log.Info(m);
             SurrenderAt20HomePage sur = new SurrenderAt20HomePage();
             try
             {
@@ -202,6 +219,8 @@ namespace SeleniumUno
         [Test]
         public void _clickRotations()
         {
+            m = MethodBase.GetCurrentMethod();
+            log.Info(m);
             SurrenderAt20HomePage sur = new SurrenderAt20HomePage();
             try
             {
@@ -221,6 +240,8 @@ namespace SeleniumUno
         [Test]
         public void _clickEsports()
         {
+            m = MethodBase.GetCurrentMethod();
+            log.Info(m);
             SurrenderAt20HomePage sur = new SurrenderAt20HomePage();
             try
             {
@@ -240,6 +261,8 @@ namespace SeleniumUno
         [Test]
         public void _featuredContent()
         {
+            m = MethodBase.GetCurrentMethod();
+            log.Info(m);
             SurrenderAt20HomePage sur = new SurrenderAt20HomePage();
             foreach (IWebElement e in sur.featuredContentLinks)
             {
@@ -259,21 +282,23 @@ namespace SeleniumUno
         [Test]
         public void _supportLink()
         {
+            m = MethodBase.GetCurrentMethod();
+            log.Info(m);
             SurrenderAt20HomePage sur = new SurrenderAt20HomePage();
             m = MethodBase.GetCurrentMethod();
             try
             {
-                Log.Info("Attempting to click on link");
+                log.Info("Attempting to click on link");
                 sur.supportLink.Click();
-                Log.Debug("Clicked on link successfully.");
+                log.Debug("Clicked on link successfully.");
 
 
             }
             catch(Exception e)
             {
-                Log.Error($"Class: {m.ReflectedType.Name} || Method: {m.Name} || Error: {e}");
+                log.Error($"Class: {m.ReflectedType.Name} || Method: {m.Name} || Error: {e}");
             }
-            System.Threading.Thread.Sleep(3000);
+            System.Threading.Thread.Sleep(4000);
             Assert.That(SeleniumUno.Main.PropertiesCollection.driver.Url.Contains("support"));
             Base._takesScreenshot(m.Name);
             
@@ -285,20 +310,21 @@ namespace SeleniumUno
             SurrenderAt20HomePage sur = new SurrenderAt20HomePage();
             Actions s = new Actions(SeleniumUno.Main.PropertiesCollection.driver);
             m = MethodBase.GetCurrentMethod();
+            log.Info(m);
             int count = 1;
             int countCheck = 1;
             try
             {
-                Log.Info("Attempting to open all links");
+                log.Info("Attempting to open all links");
                 foreach(IWebElement link in sur.weekHeadlines)
                 {
                     s.KeyDown(Keys.Control).Click(link).Build().Perform();
                 }
-                Log.Debug("Links clicked successfully");
+                log.Debug("Links clicked successfully");
             }
             catch(Exception e)
             {
-                Log.Error($"Class: {m.ReflectedType.Name} || Method: {m.Name} || Error: {e}");
+                log.Error($"Class: {m.ReflectedType.Name} || Method: {m.Name} || Error: {e}");
             }
 
             countCheck = countCheck + SeleniumUno.Main.PropertiesCollection.driver.WindowHandles.Count;
@@ -313,11 +339,75 @@ namespace SeleniumUno
             Assert.That(count == countCheck);
         }
 
+        [Test]
+        public void _blogArchive()
+        {
+            m = MethodBase.GetCurrentMethod();
+            log.Info(m);
+            SurrenderAt20HomePage sur = new SurrenderAt20HomePage();
+            IList<IWebElement> selectOptions = sur.blogArchive.AllSelectedOptions;
+            int count = 1;
+
+            foreach(IWebElement option in selectOptions)
+            {
+                log.Info($"Option number {count} is {option}");
+                count++;
+            }
+
+        }
+
+        [Test]
+        public void _skinSpotlight()
+        {
+            m = MethodBase.GetCurrentMethod();
+            SurrenderAt20HomePage sur = new SurrenderAt20HomePage();
+            try
+            {
+                log.Debug("Attempting to click on link..");
+                sur.skinSpotlight.Click();
+                log.Info("Link clicked successfully!");
+            }
+            catch(Exception e)
+            {
+                log.Error($"Class: {m.ReflectedType.Name} || Method: {m.Name} || Error: {e}");
+            }
+
+            IReadOnlyCollection<string> windowIds = SeleniumUno.Main.PropertiesCollection.driver.WindowHandles;
+            foreach(string id in windowIds)
+            {
+                SeleniumUno.Main.PropertiesCollection.driver.SwitchTo().Window(id);
+            }
+
+            System.Threading.Thread.Sleep(2000);
+
+            Assert.IsTrue(SeleniumUno.Main.PropertiesCollection.driver.Url.Contains("skinspotlights"));
+            Base._takesScreenshot(m.Name);
+        }
+
+        [Test]
+        public void _footerLinks()
+        {
+            m = MethodBase.GetCurrentMethod();
+            SurrenderAt20HomePage sur = new SurrenderAt20HomePage();
+            try
+            {
+                log.Debug("Attempting to click on links");
+                log.Info(SeleniumUno.Standard_Methods.GetMethods.ClickAllLinks(sur.footerLinks));
+                log.Info("Links clicked successfully!");
+            }
+            catch( Exception e)
+            {
+                log.Error($"Class: {m.ReflectedType.Name} || Method: {m.Name} || Error: {e}");
+            }
+            
+        }
+
         [TearDown]
         public void CloseBrowser()
         {
             System.Threading.Thread.Sleep(2000);
             SeleniumUno.Main.PropertiesCollection.driver.Quit();
+            //Console.ReadLine();
         }
     }
 
