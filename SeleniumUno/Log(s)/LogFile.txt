@@ -156,3 +156,126 @@
 14:00:16,965 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
 14:00:19,807 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
 14:00:23,344 [NonParallelWorker] INFO SeleniumUno.Surrender - Void InitializeDriver()
+13:50:35,535 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+13:50:39,326 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+13:50:43,545 [NonParallelWorker] INFO SeleniumUno.Surrender - Void _blogArchive()
+13:50:50,084 [NonParallelWorker] INFO SeleniumUno.Surrender - Option number 1 is Element (id = 9b48ebdc-5aeb-47c3-a3e4-027ba83c2437)
+13:58:20,089 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+13:58:23,638 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+13:58:28,188 [NonParallelWorker] INFO SeleniumUno.Surrender - Void _blogArchive()
+13:58:31,982 [NonParallelWorker] INFO SeleniumUno.Surrender - Option number 1 is Element (id = 19468842-f8cc-45f4-b29b-55d206944309)
+10:28:42,141 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+10:28:48,838 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+10:28:54,701 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Attempting to click on link..
+10:28:55,207 [NonParallelWorker] INFO SeleniumUno.Surrender - Link clicked successfully!
+10:31:35,678 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+10:31:38,639 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+10:31:43,725 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Attempting to click on link..
+10:31:43,928 [NonParallelWorker] INFO SeleniumUno.Surrender - Link clicked successfully!
+10:40:56,651 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+10:40:59,817 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+10:41:04,170 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Attempting to click on link..
+10:41:04,831 [NonParallelWorker] INFO SeleniumUno.Surrender - Link clicked successfully!
+10:49:51,154 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+10:49:54,292 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+10:49:58,922 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Attempting to click on link..
+10:49:59,568 [NonParallelWorker] INFO SeleniumUno.Surrender - Link clicked successfully!
+10:52:29,504 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+10:52:32,767 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+10:52:37,945 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Attempting to click on link..
+10:52:38,325 [NonParallelWorker] INFO SeleniumUno.Surrender - Link clicked successfully!
+11:27:01,018 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+11:27:04,283 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+11:27:09,016 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Attempting to click on links
+11:27:09,981 [NonParallelWorker] INFO SeleniumUno.Surrender - Links clicked successfully
+11:27:09,995 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Attempting to click on links
+11:27:10,994 [NonParallelWorker] INFO SeleniumUno.Surrender - Links clicked successfully
+11:27:11,012 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Attempting to click on links
+11:27:12,543 [NonParallelWorker] INFO SeleniumUno.Surrender - Links clicked successfully
+11:27:12,560 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Attempting to click on links
+11:27:15,185 [NonParallelWorker] INFO SeleniumUno.Surrender - Links clicked successfully
+11:27:15,204 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Attempting to click on links
+11:27:17,528 [NonParallelWorker] INFO SeleniumUno.Surrender - Links clicked successfully
+11:27:17,544 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Attempting to click on links
+11:27:20,495 [NonParallelWorker] INFO SeleniumUno.Surrender - Links clicked successfully
+11:27:20,512 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Attempting to click on links
+11:27:23,990 [NonParallelWorker] INFO SeleniumUno.Surrender - Links clicked successfully
+11:27:24,005 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Attempting to click on links
+11:27:28,473 [NonParallelWorker] INFO SeleniumUno.Surrender - Links clicked successfully
+11:27:28,491 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Attempting to click on links
+11:27:33,192 [NonParallelWorker] INFO SeleniumUno.Surrender - Links clicked successfully
+11:33:58,747 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+11:34:02,075 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+11:34:07,688 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Attempting to click on links
+11:34:08,646 [NonParallelWorker] INFO SeleniumUno.Surrender - Links clicked successfully
+11:34:08,665 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Attempting to click on links
+11:34:10,048 [NonParallelWorker] INFO SeleniumUno.Surrender - Links clicked successfully
+11:34:10,065 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Attempting to click on links
+11:34:11,454 [NonParallelWorker] INFO SeleniumUno.Surrender - Links clicked successfully
+11:34:11,472 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Attempting to click on links
+11:34:13,380 [NonParallelWorker] INFO SeleniumUno.Surrender - Links clicked successfully
+11:34:13,398 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Attempting to click on links
+11:34:15,726 [NonParallelWorker] INFO SeleniumUno.Surrender - Links clicked successfully
+11:34:15,744 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Attempting to click on links
+11:34:18,700 [NonParallelWorker] INFO SeleniumUno.Surrender - Links clicked successfully
+11:34:18,718 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Attempting to click on links
+11:34:22,572 [NonParallelWorker] INFO SeleniumUno.Surrender - Links clicked successfully
+11:34:22,599 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Attempting to click on links
+11:37:23,616 [15] INFO SeleniumUno.Surrender - Attempting to initialize driver
+11:37:26,963 [15] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+11:39:00,725 [15] DEBUG SeleniumUno.Surrender - Attempting to click on links
+11:39:07,171 [15] INFO SeleniumUno.Surrender - Links clicked successfully
+11:39:07,188 [15] DEBUG SeleniumUno.Surrender - Attempting to click on links
+11:39:13,826 [15] INFO SeleniumUno.Surrender - Links clicked successfully
+11:39:13,845 [15] DEBUG SeleniumUno.Surrender - Attempting to click on links
+11:39:19,797 [15] INFO SeleniumUno.Surrender - Links clicked successfully
+11:39:19,816 [15] DEBUG SeleniumUno.Surrender - Attempting to click on links
+12:31:25,018 [NonParallelWorker] INFO SeleniumUno.Surrender - Attempting to initialize driver
+12:31:27,439 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+12:31:31,611 [NonParallelWorker] DEBUG SeleniumUno.Surrender - Attempting to click on link
+12:31:33,001 [NonParallelWorker] INFO SeleniumUno.Surrender - Url status is OK
+12:31:33,276 [NonParallelWorker] INFO SeleniumUno.Surrender - Link https://www.surrenderat20.net/2020/11/1111-pbe-update-prestige-star-guardian.html#more clicked successfully
+12:32:14,663 [NonParallelWorker] ERROR SeleniumUno.Surrender - Class: Surrender || Method: _continueReading || Error: System.NotSupportedException: The given path's format is not supported.
+   at System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   at System.Security.Permissions.FileIOPermission.QuickDemand(FileIOPermissionAccess access, String fullPath, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at SeleniumUno.Main.Base._takeFullScreenshot(String fileName, String additional) in C:\Users\ljone\source\repos\SeleniumUno\SeleniumUno\Main\Base.cs:line 34
+   at SeleniumUno.Surrender._continueReading() in C:\Users\ljone\source\repos\SeleniumUno\SeleniumUno\Test\SurrenderAt20HomePageTest.cs:line 425
+12:33:05,241 [15] INFO SeleniumUno.Surrender - Attempting to initialize driver
+12:33:07,611 [15] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+12:33:38,321 [15] DEBUG SeleniumUno.Surrender - Attempting to click on link
+12:33:43,524 [15] INFO SeleniumUno.Surrender - Url status is OK
+12:33:44,070 [15] INFO SeleniumUno.Surrender - Link https://www.surrenderat20.net/2020/11/1111-pbe-update-prestige-star-guardian.html#more clicked successfully
+12:34:29,117 [15] ERROR SeleniumUno.Surrender - Class: Surrender || Method: _continueReading || Error: System.NotSupportedException: The given path's format is not supported.
+   at System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   at System.Security.Permissions.FileIOPermission.QuickDemand(FileIOPermissionAccess access, String fullPath, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at SeleniumUno.Main.Base._takeFullScreenshot(String fileName, String additional) in C:\Users\ljone\source\repos\SeleniumUno\SeleniumUno\Main\Base.cs:line 34
+   at SeleniumUno.Surrender._continueReading() in C:\Users\ljone\source\repos\SeleniumUno\SeleniumUno\Test\SurrenderAt20HomePageTest.cs:line 425
+12:38:40,883 [15] INFO SeleniumUno.Surrender - Attempting to initialize driver
+12:38:42,910 [15] DEBUG SeleniumUno.Surrender - Driver initialized successfully
+12:38:56,705 [15] DEBUG SeleniumUno.Surrender - Attempting to click on link
+12:39:02,205 [15] INFO SeleniumUno.Surrender - Url status is OK
+12:39:02,400 [15] INFO SeleniumUno.Surrender - Link https://www.surrenderat20.net/2020/11/1111-pbe-update-prestige-star-guardian.html#more clicked successfully
+12:39:52,455 [15] INFO SeleniumUno.Surrender - Url status is OK
+12:41:09,880 [15] ERROR SeleniumUno.Surrender - Class: Surrender || Method: _continueReading || Error: System.NotSupportedException: The given path's format is not supported.
+   at System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   at System.Security.Permissions.FileIOPermission.QuickDemand(FileIOPermissionAccess access, String fullPath, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at SeleniumUno.Main.Base._takeFullScreenshot(String fileName, String additional) in C:\Users\ljone\source\repos\SeleniumUno\SeleniumUno\Main\Base.cs:line 34
+   at SeleniumUno.Surrender._continueReading() in C:\Users\ljone\source\repos\SeleniumUno\SeleniumUno\Test\SurrenderAt20HomePageTest.cs:line 425

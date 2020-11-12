@@ -49,6 +49,8 @@ namespace SeleniumUno.Main
         protected internal IWebElement skinSpotlight => SeleniumUno.Main.PropertiesCollection.driver.FindElement(By.CssSelector("a[href*='skinspotlights']"));
 
         protected internal IList<IWebElement> footerLinks => SeleniumUno.Main.PropertiesCollection.driver.FindElements(By.XPath(("//div[@id='footer-content']/a")));
+        
+        protected internal IReadOnlyCollection<IWebElement> continueReadings => SeleniumUno.Main.PropertiesCollection.driver.FindElements(By.XPath("//*[text()='CONTINUE READING »']"));
         public SurrenderAt20HomePage()
         {
             //Initializes the driver to have waits

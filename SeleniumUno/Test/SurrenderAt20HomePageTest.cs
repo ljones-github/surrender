@@ -350,9 +350,12 @@ namespace SeleniumUno
 
             foreach(IWebElement option in selectOptions)
             {
-                log.Info($"Option number {count} is {option}");
+                log.Info($"Option number {count} is {option.Text}");
                 count++;
             }
+
+            string firstName = "LaRon";
+            Console.WriteLine(firstName[2]);
 
         }
 
@@ -381,7 +384,8 @@ namespace SeleniumUno
             System.Threading.Thread.Sleep(2000);
 
             Assert.IsTrue(SeleniumUno.Main.PropertiesCollection.driver.Url.Contains("skinspotlights"));
-            Base._takesScreenshot(m.Name);
+            //Base._takesScreenshot(m.Name);
+            Base._takeFullScreenshot(m.Name);
         }
 
         [Test]
@@ -400,6 +404,41 @@ namespace SeleniumUno
                 log.Error($"Class: {m.ReflectedType.Name} || Method: {m.Name} || Error: {e}");
             }
             
+        }
+
+        [Test]
+        public void _continueReading()
+        {
+            m = MethodBase.GetCurrentMethod();
+            SurrenderAt20HomePage sur = new SurrenderAt20HomePage();
+            Actions s = new Actions(SeleniumUno.Main.PropertiesCollection.driver);
+
+            
+                try
+                {
+                    foreach(IWebElement cr in sur.continueReadings)
+                    {
+                        log.Debug("Attempting to click on link");
+                        s.Click(cr).Build().Perform();
+                        Assert.IsTrue(Base.verifyUrlConnection(SeleniumUno.Main.PropertiesCollection.driver.Url, log), $"Error with url: {SeleniumUno.Main.PropertiesCollection.driver.Url}. HttpResponse was not ok");
+                        log.Info($"Link {SeleniumUno.Main.PropertiesCollection.driver.Url} clicked successfully");
+                        Base._takeFullScreenshot(m.Name, SeleniumUno.Main.PropertiesCollection.driver.Title);
+                        SeleniumUno.Main.PropertiesCollection.driver.Navigate().Back();
+                    }
+                }
+                catch(Exception e)
+                {
+                    log.Error($"Class: {m.DeclaringType.Name} || Method: {m.Name} || Error: {e}");
+                }
+
+            //IReadOnlyCollection<String>windows = SeleniumUno.Main.PropertiesCollection.driver.WindowHandles;
+
+            /*foreach(String window in windows)
+            {
+                SeleniumUno.Main.PropertiesCollection.driver.SwitchTo().Window(window);
+                Base._takeFullScreenshot(m.Name, SeleniumUno.Main.PropertiesCollection.driver.Title);
+            }*/
+
         }
 
         [TearDown]
